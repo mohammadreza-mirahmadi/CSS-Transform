@@ -1,0 +1,155 @@
+:root {
+  --primary-color: rgba(210, 140, 250, 0.781);
+  --secondary-color: gainsboro;
+  --body-color: #f6f1f6;
+  --white: #fff;
+  --transision: all 200ms ease-in 150ms;
+}
+
+body {
+  background-color: var(--body-color);
+  padding: 4rem 0 8rem 0;
+}
+.container {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.margin-top {
+  margin-top: 2rem;
+}
+
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 9rem;
+  background-color: var(--white);
+}
+.background {
+  width: 7rem;
+  height: 7rem;
+  background-color: var(--secondary-color);
+}
+.box {
+  width: 7rem;
+  height: 7rem;
+  z-index: 10;
+  background-color: var(--primary-color);
+  transition: var(--transision);
+}
+.box-1:hover {
+  transform: rotate(45deg);
+  transition: var(--transision);
+}
+.box-2:hover {
+  transform: scaleY(0.6);
+  transition: var(--transision);
+}
+.box-3:hover {
+  transform: scaleX(0.6);
+  transition: var(--transision);
+}
+.box-4:hover {
+  transform: scale(2);
+  transition: var(--transision);
+}
+.box-5:hover {
+  transform: scaleX(2);
+  transition: var(--transision);
+}
+.box-6:hover {
+  transform: scaleY(2);
+  transition: var(--transision);
+}
+.box-7:hover {
+  transform: skewX(45deg);
+  transition: var(--transision);
+}
+.box-8:hover {
+  transform: skewY(45deg);
+  transition: var(--transision);
+}
+.box-9:hover {
+  transform: translate(3rem, 1rem);
+  transition: var(--transision);
+}
+.box-10:hover {
+  transform: translateX(3rem);
+  transition: var(--transision);
+}
+.box-11:hover {
+  transform: translateY(3rem);
+  transition: var(--transision);
+}
+.box-12:hover {
+  transform: skewY(45deg) scale(2) translate(2rem, -2rem);
+  transition: var(--transision);
+}
+.box-13:hover {
+  transform: perspective(9rem) rotateX(45deg) translateY(0.2rem);
+  transition: var(--transision);
+}
+.box-14:hover {
+  transform: perspective(9rem) rotateY(45deg) translateX(-0.2rem);
+  transition: var(--transision);
+}
+.box-15:hover {
+  transform-origin: top right;
+  transform: rotate(45deg);
+  transition: var(--transision);
+}
+.box-16:hover {
+  transform-origin: bottom left;
+  transform: rotate(45deg);
+  transition: var(--transision);
+}
+.box-17:hover {
+  transform: perspective(10rem) rotateX(45deg) translateY(1rem) scale(0.75);
+  transition: var(--transision);
+}
+.box-18:hover {
+  transform: perspective(18rem) rotateX(45deg) translateY(-1.8rem) scale(1.2);
+  transition: var(--transision);
+}
+.box-19:hover {
+  transform: perspective(20rem) rotateY(45deg) translateX(-1rem) scale(0.9);
+  transition: var(--transision);
+}
+.box-20:hover {
+  transform: perspective(16rem) rotateY(45deg) translateX(2rem) scale(1.25);
+  transition: var(--transision);
+}
+.box-21:hover {
+  transform-origin: top right;
+  transform: scale(2);
+  transition: var(--transision);
+}
+.box-22:hover {
+  transform-origin: bottom left;
+  transform: scale(2);
+  transition: var(--transision);
+}
+.box-23:hover {
+  transform-origin: right;
+  transform: scaleX(2);
+  transition: var(--transision);
+}
+.box-24:hover {
+  transform-origin: left;
+  transform: scaleX(2);
+  transition: var(--transision);
+}
+.box-25:hover {
+  transform-origin: top;
+  transform: scaleY(2);
+  transition: var(--transision);
+}
+.box-26:hover {
+  transform-origin: bottom;
+  transform: scaleY(2);
+  transition: var(--transision);
+}
